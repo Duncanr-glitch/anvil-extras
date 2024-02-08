@@ -343,6 +343,7 @@ components:
     visible: true
     primary_placeholder: Enter a tag
     secondary_placeholder: +Tag
+    can_add: false
   name: chips_1
   layout_properties: {grid_position: 'KHIAAV,YQLEWH'}
   event_bindings: {chips_changed: chips_1_chips_changed}

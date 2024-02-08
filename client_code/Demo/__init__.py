@@ -17,6 +17,7 @@ dataset_url = "https://pivottable.js.org/examples/mps.json"
 @auto_refreshing
 class Demo(DemoTemplate):
     def __init__(self, **properties):
+        print(self.chips_1.can_add)
         self.init_custom_slider_formatter()
 
         self.progress = 0
